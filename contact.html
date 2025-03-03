@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- navbar section -->
+
+    <nav>
+        <h1>Prakatheeswaran</h1>
+        <ul class="links">
+            <li><a href="./index.html" class="nav">Home</a></li>
+            <li><a href="certificate.html" class="nav">Certifications</a></li>
+            <li><a href="./skills.html" class="nav">Skills</a></li>
+            <li><a href="projects.html" class="nav">Projects</a></li>
+            <li><a href="./contact.html" class="nav">Contact Us</a></li>
+        </ul>
+        <div class="menu-bar" onclick="showNavbar()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div class="side-bar">
+        <div>
+            <p onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark" ></i>
+        </p>
+        </div>
+        <div class="side-bar-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="certificate.html">Certifications</a></li>
+                <li><a href="./skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <h1 style="text-align: center; margin-top: 10px;">Contact Me</h1>
+<center>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe6xVmXNT64zazXBPT9ZZY3dNq06aBcpNKb0OiUubKzR0XjEQ/viewform?embedded=true" width="950" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
+   
+    <footer>
+        <div class="foot">
+            <div class="foot-head">
+            <h3>PRAKATHEESWARAN M</h3>
+            <h3 style="margin-top: 10px;">Maths Graduate & Aspiring Web Developer </h3>
+           </div>
+            <div class="footer-icons">
+                <li><a href="https://www.linkedin.com/in/prakatheeswaran/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="mailto:pragatheeswar2003@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="https://github.com/Prakatheeswaran-5459"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/prakatheeswaran?igsh=N2s1engxenV2c281"><i class="fa-brands fa-instagram"></i></a></li>
+            </div>
+            <div class="foot-contact">
+                <p>Email - pragatheeswar2003@gamil.com</p>
+                <p>Phone no: 6374738326</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var sidenav =document.querySelector(".side-bar")
+            // sidenav.style.display ="none"
+            function showNavbar()
+            {
+                sidenav.style.right = "0"
+            }
+    
+            function closeNavbar()
+            {
+                sidenav.style.right = "-50%"
+            }
+    </script>
+    </body>
+    </html>

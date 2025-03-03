@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- navbar section -->
+
+    <nav>
+        <h1>Prakatheeswaran</h1>
+        <ul class="links">
+            <li><a href="./index.html" class="nav">Home</a></li>
+            <li><a href="certificate.html" class="nav">Certifications</a></li>
+            <li><a href="./skills.html" class="nav">Skills</a></li>
+            <li><a href="projects.html" class="nav">Projects</a></li>
+            <li><a href="./contact.html" class="nav">Contact Us</a></li>
+        </ul>
+        <div class="menu-bar" onclick="showNavbar()">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <div class="side-bar">
+        <div>
+            <p onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark" ></i>
+        </p>
+        </div>
+        <div class="side-bar-links">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="certificate.html">Certifications</a></li>
+                <li><a href="./skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="certifications">
+
+        <h1 style="font-size: 30px;">CERTIFICATIONS</h1>
+
+        <div class="certificate">
+            <p>IBM Certified Python Developer</p>
+            <div class="c-btn">
+                <a href="https://drive.google.com/file/d/1uTeL6J4gtXad1gQkEzUeGBQ0b-s4DxTl/view?usp=drivesdk">View</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <p>IBM Certified SQL Developer</p>
+            <div class="c-btn">
+                <a href="https://drive.google.com/file/d/1v29Vipe5r5j5NShuHzQ8WmsjXrZVc6O2/view?usp=drivesdk">View</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <p>Error Makes Clover Academy Certified HTML</p>
+            <div class="c-btn">
+                <a href="https://drive.google.com/file/d/1uh9vKJdE4hz6U_Sjkm-6VSi5sW0Wbr7A/view?usp=drivesdk">View</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <p>Error Makes Clover Academy Certifed CSS</p>
+            <div class="c-btn">
+                <a href="https://drive.google.com/file/d/1uh9vKJdE4hz6U_Sjkm-6VSi5sW0Wbr7A/view?usp=drivesdk">View</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <p>Linkedin Learning Certified MS EXCEL </p>
+            <div class="c-btn">
+                <a href="https://drive.google.com/file/d/1v3GLbLCznjbABAWA2OSY-HrA7dnxd6OV/view?usp=drivesdk">View</a>
+            </div>
+        </div>
+        <div class="certificate">
+            <p>Udemy Certified Bootstrap</p>
+            <div class="c-btn">
+                <a href="https://drive.google.com/file/d/1z6fZx_03qYi8g90iyTe8tXFJ5wzPO018/view?usp=drivesdk">View</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <div class="foot">
+            <div class="foot-head">
+            <h3>PRAKATHEESWARAN M</h3>
+            <h3 style="margin-top: 10px;">Maths Graduate & Aspiring Web Developer </h3>
+           </div>
+            <div class="footer-icons">
+                <li><a href="https://www.linkedin.com/in/prakatheeswaran/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="mailto:pragatheeswar2003@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                <li><a href="https://github.com/Prakatheeswaran-5459"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.instagram.com/prakatheeswaran?igsh=N2s1engxenV2c281"><i class="fa-brands fa-instagram"></i></a></li>
+            </div>
+            <div class="foot-contact">
+                <p>Email - pragatheeswar2003@gamil.com</p>
+                <!-- <p>|</p> -->
+                <p>Phone no: 6374738326</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        var sidenav =document.querySelector(".side-bar")
+            // sidenav.style.display ="none"
+            function showNavbar()
+            {
+                sidenav.style.right = "0"
+            }
+    
+            function closeNavbar()
+            {
+                sidenav.style.right = "-50%"
+            }
+    </script>
+    </body>
+    </html>
